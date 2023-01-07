@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Serif", serif;
+  }
+  
+  body {
+    height: 50vh;
+    width: 70%;
+ 
+  }
+  .header {
+    margin-left: 430px ;
+    margin-top: 100px;
+    max-width: 430px;
+    width: 50%;
+    background: #d7a5e2;
+    padding: 25px;
+    border-radius: 5px;
+  }
+
+  b {
+    
+    font-size: 20px;
+    color: rgb(20, 1, 18)
+  }
+
+ 
+  input {
+    font-size: 19px;
+    border: none;
+    height: 20px;
+    border-radius: 3px;
+    padding-left: 15px;
+    outline: none;
+    
+  }
+  button {
+    transition-duration: 1000ms;
+    transition: 0.4s;
+    padding: 8px 10px;
+    height: 40px;
+    border: none;
+    background: rgb(207, 128, 235);
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 8%;
+    border: 1px black solid;
+  }
+  
+  
+ 
+  
+  .todo-list li {
+    list-style: none;
+    position: relative;
+    height: 34px;
+    line-height: 30px;
+    background:white;
+    margin-bottom: 5px;
+    border: 5px;
+    padding: 5px 5px;
+    cursor: default;
+    overflow: hidden;
+    padding-left: 24px;
+
+  }
+  .todo-list li span {
+    position: absolute;
+    right: -20px;
+    cursor: pointer;
+    font-size: 20px;
+   
+    padding-right: 13%;
+  }
+ 
+ 
+  
